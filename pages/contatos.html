@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hydra City RP - Contato</title>
+  <link rel="shortcut icon" href="/img/logo.png" type="image/png" />
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <style>
+    html, body {
+      min-height: 100vh;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      background-color: #121212;
+      color: #f8f9fa;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    main {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .btn-warning:hover {
+      background-color: #ffc107;
+      box-shadow: 0 0 10px #ffc10780;
+      transition: 0.3s ease-in-out;
+    }
+
+    .form-control {
+      background-color: #1e1e1e;
+      color: #fff;
+      border-color: #ffc107;
+    }
+
+    .form-control:focus {
+      border-color: #ffc107;
+      box-shadow: 0 0 5px #ffc10750;
+      background-color: #1a1a1a;
+      color: #fff;
+    }
+
+    .form-control::placeholder {
+      color: #ccc;
+    }
+
+    footer {
+      background-color: #1f1f1f;
+      color: #ccc;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning" href="/index.html">
+          <img src="/img/logo.png" alt="Logo Hydra City" width="30" height="30" class="me-2">
+          Hydra City RP
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item p-1">
+              <a class="btn btn-outline-warning" href="produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item p-1">
+              <a class="btn btn-outline-warning" href="contatos.html">Contatos</a>
+            </li>
+            <li class="nav-item p-1">
+              <a class="btn btn-outline-warning" href="regras.html">Regras</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container bg-dark p-4 rounded shadow border border-warning">
+      <h2 class="text-warning mb-4 text-center">Fale Conosco</h2>
+
+      <div class="row align-items-center mb-4">
+        <div class="col-md-4 text-center mb-3 mb-md-0">
+          <img src="/img/suporte.png" alt="Suporte Hydra City RP" class="img-fluid rounded shadow" style="max-height: 250px;">
+        </div>
+        <div class="col-md-8">
+          <ul class="list-unstyled fs-5">
+            <li><strong>Email:</strong> <a href="mailto:hydracityrp@gmail.com" class="text-warning">hydracityrp@gmail.com</a></li>
+            <li><strong>Discord:</strong> <a href="https://discord.gg/hydracity" class="text-warning" target="_blank">discord.gg/hydracity</a></li>
+            <li><strong>Instagram:</strong> <a href="https://instagram.com/hydracity.rp" class="text-warning" target="_blank">@hydracity.rp</a></li>
+          </ul>
+          <div class="alert alert-warning mt-3" role="alert">
+            <strong>Precisa de suporte?</strong> Entre no nosso Discord e abra um ticket com a equipe!
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4 border-warning">
+
+      <h4 class="text-warning mb-3">Envie uma mensagem</h4>
+      <form>
+        <div class="mb-3">
+          <label for="nome" class="form-label">Nome</label>
+          <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" placeholder="seu@email.com">
+        </div>
+        <div class="mb-3">
+          <label for="mensagem" class="form-label">Mensagem</label>
+          <textarea class="form-control" id="mensagem" rows="4" placeholder="Escreva sua mensagem"></textarea>
+        </div>
+        <button type="submit" class="btn btn-warning px-4 py-2 fw-bold">Enviar</button>
+      </form>
+    </div>
+  </main>
+
+  <footer class="text-center">
+    <p class="m-0">&copy; 2025 Hydra City RP. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
